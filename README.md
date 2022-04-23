@@ -1,7 +1,7 @@
 # LordOfWizard's All PPS experiment answers
 **WARNING THIS REPOSITORY IS A PRIVATE PROPERTY AND USED ONLY FOR EDUCATIONAL PURPOSES, ANY ACADEMIC ISSUES WILL BE YOUR OWN ISSUE lol**
 * Experiment no 1
-```py
+```python
 gross_salary,basic,hra,ta,ptax = 0,0,10,5,2
 basic = int(input("Please input your Monthly Salary :- "))
 hra_amount = (hra * basic) / 100
@@ -13,7 +13,7 @@ net_salary = basic - total_tax
 print(f"Your net salary for 1 year is {int(net_salary)}")
 ```
 * Experiment no 2
-```py
+```python
 import math
 
 n = int(input("Please input no of Numbers :- "))
@@ -30,7 +30,7 @@ print(f"sum no in this list {sum(numbers)}")
 print(f"minumum no in this list {sum(numbers)/n_copy}")
 ```
 * Experiment no 3
-```py
+```python
 N = int(input("Please enter N :- "))
 
 SUM = 0
@@ -49,7 +49,7 @@ while Number != 0:
 print(SUM)
 ```
 * Experiment no 4
-```py
+```python
 def greet(name : str , msg : str):
     """This function greets to 
     the person with the provided message"""
@@ -100,7 +100,7 @@ def parser():
 parser()
 ```
 * Experiment no 5
-```py
+```python
 num = int(input("Please input number :- "))
 rer = 0
 while num > 0:
@@ -109,7 +109,7 @@ while num > 0:
 print("Reverse number is" ,rer)
 ```
 * Experiment no 6
-```py
+```python
   decimal = 0
 base = 1
 
@@ -123,7 +123,7 @@ while binary != 0:
 print("Decimal number of given binary is",decimal)
 ```
 * Experiment no 7
-```py
+```python
 f1 = 0
 f2 = 1
 
@@ -136,7 +136,7 @@ for i in range(0,n):
     f2 = f3
 ```
 * Experiment no 8
-```py
+```python
 import collections
 import pprint
 file_input = input("File name :- ")
